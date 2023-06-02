@@ -1,0 +1,1 @@
+This directory should have all of the .csv files in the "outputs" folder from your GIS code runs, plus the shapefile of the AOI.
