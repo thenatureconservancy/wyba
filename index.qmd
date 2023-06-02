@@ -1,0 +1,78 @@
+---
+title: "Wyoming Sagebrush Subregion Landscape Assessment"
+author: "TNC's LANDFIRE Team, Conservation Data Lab"
+---
+
+## Goals of this quick demonstration
+
+We will use [LANDFIRE](https://landfire.gov/){target="blank"} products to:
+
+1. Characterize and map past and present ecosystem conditions
+2. Explore historical disturbance patterns
+3. Summarize patterns of change and management opportunities
+
+
+The following charts, maps, and graphs are based on current LANDFIRE products, and provide a starting point for further analysis.
+
+This demonstration will:
+
+* Provide context for the past and present ecosystem conditions the Wyoming Sagebrush Subregion, one of the [Southern Rockies Fire Science Network's](https://www.southernrockiesfirescience.org/){target="blank"} (SRFSN) five Subregions
+* Demonstrate the power of data visualization to explore ecological patterns and functions using LANDFIRE products
+* Facilitate an understanding of historical and current conditions on a regional scale
+
+## Assessment Location
+
+The SRFSN Wyoming Sagebrush Subregion is located in Central/South central Wyoming and far northwestern Colorado- [Read more](https://www.southernrockiesfirescience.org/wyoming-sagebrush/){target="blank"}. 
+
+
+<br>
+
+```{r libraries, message=FALSE, warning=FALSE, include=FALSE}
+
+library(foreign)
+library(sf)
+library(terra)
+library(tidyverse)
+library(raster)
+
+
+```
+
+
+```{r read shapefile, message=FALSE, warning=FALSE, include=FALSE}
+#  read shape
+shp <- st_read("data/") %>% 
+  st_transform(crs = 5070) %>%
+  st_union() %>%
+  st_sf()
+```
+
+```{r locator map, message=FALSE, warning=FALSE, echo=FALSE}
+library(tmap)
+
+# toggle tmap mode to interactive viewing
+tmap_mode("view")
+
+# create a quick interactive map
+quickmap <- qtm(shp, 
+                borders = "darkgreen", 
+                fill = NULL, 
+                check.and.fix = TRUE, 
+                basemaps = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
+                title = 'Wyoming Sagebrush Subregion',)
+
+quickmap
+
+
+
+```
+
+## How to use this web report
+
+* All maps, input datasets and further assistance can be obtained by contacting the author, [Randy Swaty](mailto:rswaty@tnc.org){target="blank"}
+* QAQC is ongoing
+* To share this web app, simply share the hyperlink
+
+
+
+
