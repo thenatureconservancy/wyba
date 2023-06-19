@@ -24,8 +24,8 @@ Using LANDFIRE’s BpS products, we explore two different ways to visualize past
 ### Summary
 
 * Broadly speaking, this subregion has not experienced significant ecosystem changes. Out of over 28 million acres of past sagebrush ecosystem(s) in the subregion, over 25 million acres remain as sagebrush. (To explore what these shrublands have converted to, hover over “Past Shrubland” in the diagram below.) 
-
 * However, over 2.8 million acres of shrubland have been converted in the subregion. Roughly 5% of the subregion was converted from riparian and shrubland ecosystems to agriculture.
+* Note: number presented when hovering equals acres.
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 # read in data
