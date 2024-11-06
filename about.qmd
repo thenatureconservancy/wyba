@@ -49,7 +49,7 @@ Check out the vegetation modeling website to learn how to integrate BpS into you
 ## Vegetation Products
 
 #### Quick Intro
-LANDFIRE (LF) existing vegetation layers describe the following elements: Existing Vegetation Type (EVT), Existing Vegetation Canopy Cover (EVC), and Existing Vegetation Height (EVH). These layers are created using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees.' (from https://landfire.gov/vegetation.php)
+LANDFIRE (LF) existing vegetation layers describe the following elements: Existing Vegetation Type (EVT), Existing Vegetation Canopy Cover (EVC), and Existing Vegetation Height (EVH). These layers are created using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees.
 
 #### Resources
 
