@@ -1,6 +1,6 @@
 ---
 title: "Wyoming Sagebrush Subregion Landscape Assessment"
-author: "Rand Swaty and the Conservation Data Lab"
+author: "Randy Swaty and the Conservation Data Lab"
 ---
 
 <font size="4"> 
