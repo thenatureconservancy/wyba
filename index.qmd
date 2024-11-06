@@ -1,7 +1,12 @@
 ---
 title: "Wyoming Sagebrush Subregion Landscape Assessment"
-author: "TNC's LANDFIRE Team, Conservation Data Lab"
+author: "Rand Swaty and the Conservation Data Lab"
 ---
+
+<font size="4"> 
+**These LANDFIRE-Powered Landscape Assessments allow users to start exploring trends, landscape conversion and natural resource management options. **
+
+</font> 
 
 ## Goals of this demonstration
 
@@ -16,7 +21,7 @@ The following charts, maps, and graphs are based on current LANDFIRE products, a
 
 This demonstration will:
 
-* Provide context for the past and present ecosystem conditions the Wyoming Sagebrush Subregion, one of the [Southern Rockies Fire Science Network's](https://www.southernrockiesfirescience.org/){target="blank"} (SRFSN) five Subregions
+* Provide context for the past and present ecosystem conditions the Wyoming Sagebrush Subregion, one of the [Southern Rockies Fire Science Network's](https://www.southernrockiesfirescience.org/){target="blank"} (SRFSN) six Subregions
 * Demonstrate the power of data visualization to explore ecological patterns and functions using LANDFIRE products
 * Facilitate an understanding of historical and current conditions on a regional scale
 
@@ -73,6 +78,7 @@ quickmap
 * Review is ongoing
 * To share this web app, simply share the hyperlink
 * Toggle between dark and light display of this site in the upper right corner of the page
+* Learn more about LANDFIRE and The Nature Conservancy [here](about.qmd){target="blank}.   
 
 
 
